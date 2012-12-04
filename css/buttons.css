@@ -1,0 +1,46 @@
+.clean-green 
+{
+	background-color:#69A74E;
+	border:1px solid;
+	color:#fff;
+	font-family:inherit;
+	border-color:#3B6E22 #3B6E22 #2C5115;
+	font-size: 12px;
+	font-weight: bold;
+	height:25px;
+	text-align: center;
+	margin:10px 0;
+	-webkit-border-radius:1px;
+	-moz-border-radius:1px;
+	border-radius:1px;
+}
+
+.clean-green:active 
+{
+	background-color:#5E9646;
+	outline: none;
+}
+	
+.clean-green:hover, .clean-green a
+{
+	color:#fff;
+}
+
+:-moz-any-link:focus {
+  outline: none;
+}
+
+/*for FireFox*/
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner 
+{
+	border: none;
+}
+/*for IE8 */
+input[type="submit"]:focus, input[type="button"]:focus
+{     
+	outline : none; 
+}
